@@ -101,3 +101,6 @@ nomearq = st.text_input("Nome do arquivo CSV:", "dados.csv")
 if st.button("Salvar CSV"):
     df.to_csv(nomearq, index=False)
     st.success(f"Arquivo '{nomearq}' salvo com sucesso!")
+    df.to_csv(nomearq, index=False)
+    st.success(f"Arquivo '{nomearq}' salvo com sucesso!")
+
